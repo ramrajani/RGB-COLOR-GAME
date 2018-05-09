@@ -1,0 +1,62 @@
+.backg{
+	background:steelblue;
+	margin:0 auto;
+	text-align: center;
+    color:white;
+   
+}
+#rgbtext{
+height: 20px;
+font-size:230%;
+
+}
+#buttonlist{
+	text-align: center;
+	border:none;
+	background-color: #2e736d;
+	text-transform: uppercase;
+
+}
+button{
+	border:none;
+	outline: none;
+	background-color: #2e736d;
+	color: white;
+	text-transform: uppercase;
+
+}
+#squarecontainer{
+	
+	text-align: center;
+   padding-left: 20%;
+   padding-right: 20%;
+   margin:0 auto;
+   transition: all 5.0s;
+
+
+
+}
+.squares{
+	width:30%;
+	float:left;
+	height:200px;
+	background-color:blue;
+	margin:10px;
+	border-radius: 50%;
+	transition: all 5.0s;
+	-webkit-transition:all 5.0s;
+}
+body{
+	background-color: #383340;
+}
+#texttochange{
+	width:150px;
+
+	display: inline-block;
+
+}
+
+.selected{
+	background-color: steelblue;
+	color:White;
+}
